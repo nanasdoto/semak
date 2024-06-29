@@ -638,6 +638,26 @@ html {
   width: 256px;
 }
 
+.min-w-\[256px\] {
+  min-width: 256px;
+}
+
+.min-w-72 {
+  min-width: 18rem;
+}
+
+.min-w-\[200px\] {
+  min-width: 200px;
+}
+
+.max-w-80 {
+  max-width: 20rem;
+}
+
+.max-w-\[374px\] {
+  max-width: 374px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -786,6 +806,10 @@ html {
 
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .tracking-\[3px\] {
