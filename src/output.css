@@ -606,28 +606,28 @@ html {
   margin-top: 0.75rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .flex {
   display: flex;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
 .gap-3 {
   gap: 0.75rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .rounded {
@@ -681,6 +681,10 @@ html {
   line-height: 2.25rem;
 }
 
+.text-\[26px\] {
+  font-size: 26px;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -707,6 +711,14 @@ html {
   line-height: 1.75rem;
 }
 
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.tracking-\[3px\] {
+  letter-spacing: 3px;
+}
+
 .text-primary-0 {
   --tw-text-opacity: 1;
   color: rgb(21 110 62 / var(--tw-text-opacity));
@@ -715,4 +727,9 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-xgrey-0 {
+  --tw-text-opacity: 1;
+  color: rgb(111 111 111 / var(--tw-text-opacity));
 }
